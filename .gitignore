@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Model files and uploads
+ml model/uploads/*
+!ml model/uploads/.gitkeep
+ml model/model_cache/*
+!ml model/model_cache/.gitkeep
+
+# Model cache
+mlmodel/model_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
